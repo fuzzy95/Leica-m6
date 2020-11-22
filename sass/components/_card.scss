@@ -1,0 +1,21 @@
+.card {
+    background: $color_white;
+    margin: 0rem 8rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 2rem;
+    overflow: hidden;
+
+    &_header {
+        margin: 2rem 0rem 1rem 0rem;
+    }
+
+    &_p {
+        padding: 2rem;
+    }
+
+    &_image {
+        object-fit: cover;
+    }
+}
